@@ -45,7 +45,7 @@ export default function HomePage() {
       {/* Connect Wallet Button */}
       <div className="absolute bottom-12 left-0 right-0 text-center">
         <button className="text-sm tracking-wider relative group bg-rose-500 text-white py-3 px-6 rounded-full transition-all duration-300 hover:bg-rose-600 hover:shadow-lg hover:shadow-rose-500/30">
-          <span className="relative z-10">CONNECT WALLET</span>
+          <span className="relative z-10">GET STARTED</span>
         </button>
       </div>
     </div>
