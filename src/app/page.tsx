@@ -1,16 +1,13 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Nav } from "@/components/core/nav";
 
 export default function HomePage() {
   return (
     <div className="relative min-h-screen bg-black text-white font-inter flex flex-col">
       {/* Top Text with Glow */}
-      <div className="absolute top-8 left-0 right-0 text-center">
-        <p className="text-sm tracking-wider glow-text">
-          DEPLOY. AUTOMATE. EVOLVE
-        </p>
-      </div>
+      <Nav />
 
       {/* Center Content */}
       <div className="flex-1 flex items-center justify-center relative overflow-hidden">
@@ -40,13 +37,6 @@ export default function HomePage() {
             AXICOV
           </h1>
         </div>
-      </div>
-
-      {/* Connect Wallet Button */}
-      <div className="absolute bottom-12 left-0 right-0 text-center">
-        <button className="text-sm tracking-wider relative group bg-rose-500 text-white py-3 px-6 rounded-full transition-all duration-300 hover:bg-rose-600 hover:shadow-lg hover:shadow-rose-500/30">
-          <span className="relative z-10">GET STARTED</span>
-        </button>
       </div>
     </div>
   );
